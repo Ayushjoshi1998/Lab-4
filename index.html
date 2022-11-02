@@ -39,7 +39,7 @@
 		var BikeRacks = L.geoJson(data, {
 		pointToLayer: function(feature, latlng){
             var marker = L.marker(latlng);
-            marker.bindPopup("Capacity: " + feature.properties.Capacity + "<br>Status: " + feature.properties.Status);
+            marker.bindPopup("Capacity: " );
             return marker;
 					}
 		});
